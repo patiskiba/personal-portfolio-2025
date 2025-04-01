@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.navbarLeft ul {
+    padding-left: 0px;
+}
+
+.navbarLeft ul li {
+    list-style-type: none;
+}
+
+/* DESIGN SYSTEM */
+
+.buttonTextPrimary {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.subheadingText {
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: .08rem;
+    color: #8a8a8a;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: white;
+}
+
+.landingParagraph {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+    color: white;
+}
+
+.navbarContact {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: .75rem 2rem;
+}
+
+
+
+
+
+/* ADD MEDIA QUERY TO ADD HAMBURGER MENU TO SMALLEST SCREEN SIZE (BELOW 375 PX) */
