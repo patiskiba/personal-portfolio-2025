@@ -51,7 +51,10 @@ h1 {
     border: 1px solid white;
     border-radius: 30px;
     padding: .75rem 2rem;
+    
 }
+
+
 
 .downloadResumeButton {
     background-color: blueviolet;
@@ -64,6 +67,9 @@ h1 {
     margin: 0px;
 }
 
+.headNav .row {
+    margin-bottom: 1rem;
+}
 
 
 
