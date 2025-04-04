@@ -13,6 +13,13 @@ body {
 
 /* DESIGN SYSTEM */
 
+.headerText {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
 .buttonTextPrimary {
     font-size: 1.2rem;
     font-weight: 600;
@@ -62,3 +69,14 @@ h1 {
 
 
 /* ADD MEDIA QUERY TO ADD HAMBURGER MENU TO SMALLEST SCREEN SIZE (BELOW 375 PX) */
+
+/* @media screen and (max-width: 425px) {
+
+    .navbarLeft {
+        display:none;
+    }
+
+    .navbarLeftMobile {
+        display:
+    }
+} */
