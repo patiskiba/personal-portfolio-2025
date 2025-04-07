@@ -11,6 +11,18 @@ body {
     list-style-type: none;
 }
 
+/* aligns navbar with rest of site, spacing, matches better to contact button */
+@media (min-width: 576px) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-left: 0px;
+        margin-right: 6rem;
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: white;
+        
+    }
+}
+
 /* DESIGN SYSTEM */
 
 .headerText {
