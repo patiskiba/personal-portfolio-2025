@@ -1,7 +1,9 @@
 body {
     background-color: black;
     font-family: "Inter", Arial, Helvetica, sans-serif;
+    
 }
+
 
 .navbarLeft ul {
     padding-left: 0px;
@@ -110,3 +112,38 @@ h2 {
         display:
     }
 } */
+
+
+
+/* SITE MARGIN RESPONSIVE */
+
+/* col-md */
+@media (min-width: 768px) {
+    .headNav {
+        max-width: 90%;
+    }
+
+    .landingSection {
+        max-width: 90%;
+    }
+
+    .skillsSection {
+        max-width: 90%;
+    }
+}
+
+
+/* col-lg */
+@media (min-width: 992px) {
+    .headNav {
+        max-width: 70%;
+    }
+
+    .landingSection {
+        max-width: 70%;
+    }
+
+    .skillsSection {
+        max-width: 70%;
+    }
+}
