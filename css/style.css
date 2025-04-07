@@ -60,7 +60,7 @@ h2 {
     color: white;
 }
 
-@media screen and (max-width: 556px){
+@media screen and (max-width: 768px){
     h1 {
         font-size: 2.5rem;
     }
@@ -145,5 +145,18 @@ h2 {
 
     .skillsSection {
         max-width: 70%;
+    }
+}
+
+
+
+
+.portrait1 {
+    transform: scaleX(-1);
+}
+/* when flex-columns turns to flex-md-row */
+@media (min-width: 768px) {
+    .portrait1 {
+        transform: scaleX(1);
     }
 }
