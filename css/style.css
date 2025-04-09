@@ -109,6 +109,7 @@ h3 {
 }
 
 .projectCard {
+    height: fit-content;
     border-radius: 1rem;
     border: 1px solid white;
     background-color: #0B031C;
@@ -194,6 +195,7 @@ h3 {
 
 
 .portrait1 {
+    
     border: 1px solid white;
     transform: scaleX(-1);
 }
