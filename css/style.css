@@ -110,6 +110,7 @@ h3 {
 
 .projectCard {
     border-radius: 1rem;
+    border: 1px solid white;
     background-color: #0B031C;
 }
 
@@ -117,8 +118,17 @@ h3 {
     border-radius: 1rem;
 }
 
+.sourceButton {
+    width: 90%;
+    
+    border-radius: 1rem;
+    border: 1px solid white;
+}
+
 .viewButton {
+    width: 90%;
     background-color: blueviolet;
+    border-radius: 1rem;
 }
 
 
@@ -184,6 +194,7 @@ h3 {
 
 
 .portrait1 {
+    border: 1px solid white;
     transform: scaleX(-1);
 }
 /* when flex-columns turns to flex-md-row */
