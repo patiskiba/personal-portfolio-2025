@@ -1,7 +1,10 @@
 body {
     background-color: black;
     font-family: "Inter", Arial, Helvetica, sans-serif;
-    
+}
+
+main {
+    background-image: radial-gradient(circle, #1a0e30, #150e2c, #100e27, #0d0d22, #090c1c, #0a0a18, #090814, #08060f, #08040b, #070206, #040102, #000000);
 }
 
 
@@ -36,6 +39,13 @@ body {
 
 .buttonTextPrimary {
     font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonTextPrimary-smaller {
+    font-size: 1rem;
     font-weight: 600;
     color: white;
     text-decoration: none;
@@ -77,6 +87,8 @@ h3 {
     }
 }
 
+
+
 .landingParagraph {
     font-size: 1.25rem;
     font-weight: 300;
@@ -115,8 +127,14 @@ h3 {
     background-color: #0B031C;
 }
 
+.projectImageContain {
+    height: 200px;
+}
+
 .projectImage {
+    max-height: 200px;
     border-radius: 1rem;
+    overflow:hidden;
 }
 
 .sourceButton {
