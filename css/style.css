@@ -191,6 +191,10 @@ h3 {
     .projectsSection {
         max-width: 90%;
     }
+
+    .contactSection {
+        max-width: 90%;
+    }
 }
 
 
@@ -209,6 +213,10 @@ h3 {
     }
 
     .projectsSection {
+        max-width: 70%;
+    }
+
+    .contactSection {
         max-width: 70%;
     }
 }
