@@ -199,6 +199,10 @@ h3 {
     .contactSection {
         max-width: 90%;
     }
+
+    .aboutSection {
+        max-width: 90%;
+    }
 }
 
 
@@ -221,6 +225,10 @@ h3 {
     }
 
     .contactSection {
+        max-width: 70%;
+    }
+
+    .aboutSection {
         max-width: 70%;
     }
 }

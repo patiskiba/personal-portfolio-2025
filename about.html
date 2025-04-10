@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <title>Patricia Skiba</title>
+</head>
+<body>
+    <section class="headNav container-fluid">
+        <div class="row">
+
+            <!-- <div class="col-7 navbarLeft dropdown-menu-xs-start">
+                <ul class="d-flex flex-row justify-content-between">
+                    Placeholder links
+                    <li><a class="headerText" href="#">Home</a></li>
+                    <li><a class="headerText" href="#">About</a></li>
+                    <li><a class="headerText" href="#">Projects</a></li>
+                </ul>
+            </div> -->
+
+            <nav class="navbarLeft col-6 navbar navbar-expand-sm navbar-dark bg-black">
+                <div class="container-fluid">
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            
+
+            <div class="col-6 navbarRight d-flex justify-content-end align-items-start pt-3">
+                <p class="headerText navbarContact text-center">Contact</p>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        
+        <section class="container-fluid aboutSection">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Hi, I'm Patricia.</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="landingParagraph">26 year old originally from Queens, NYC who values lifelong learning. My ultimate goal is to lead a life of creative and intellectual growth. </p>
+                    <p class="landingParagraph">My appreciation for digital creativity started as a little girl fumbling around on editing software, and making mods for the Sims 2. My love for user experience stems from craving a deep understanding of how and why things work.  </p>
+                    <p class="landingParagraph">My current obsessions in tech are: website UI, video game UI, CSS </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        // Copy to clipboard function for email contact
+            function copyText() {
+      const textToCopy = document.getElementById("text-to-copy").innerText; 
+      navigator.clipboard.writeText(textToCopy)
+        .then(() => {
+          // Optional: Display a success message
+          alert("Text copied to clipboard!");
+        })
+        .catch((err) => {
+          // Optional: Handle errors
+          console.error("Failed to copy text: ", err);
+        });
+    }
+    </script>
+</body>
+
+</html>
