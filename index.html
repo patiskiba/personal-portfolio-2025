@@ -198,13 +198,13 @@
                     <!-- Project card image container -->
                     <div class="row">
                         <div class="col-12  projectImageContain d-flex justify-content-center">
-                            <img src="./images/fastcompany-project.png" alt="Airbox website" class="img-fluid projectImage">
+                            <img src="./images/fastcompany-project.png" alt="Fast company" class="img-fluid projectImage">
                         </div>
                     </div>
                     <!-- Project info -->
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="my-2">Airbox</h3>
+                            <h3 class="my-2">Fast Company</h3>
                             <p class="subheadingText">HTML/CSS | Bootstrap</p>
                         </div>
                     </div>
@@ -225,8 +225,44 @@
 
         </section>
 
+
+        <div class="container-fluid contactSection">
+
+            <!-- Contact Section Title -->
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mb-4">Contact</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <h3>Want to get in touch?</h3>
+
+                    <p id="text-to-copy">patricia.skiba@mscoding.org</p>
+                    <p type="button" class="downloadResumeButton" onclick="copyText()">Copy</p>
+
+                </div>
+            </div>
+        </div>
+
     </main>
 
-
+    <script>
+        // Copy to clipboard function for email contact
+            function copyText() {
+      const textToCopy = document.getElementById("text-to-copy").innerText; 
+      navigator.clipboard.writeText(textToCopy)
+        .then(() => {
+          // Optional: Display a success message
+          alert("Text copied to clipboard!");
+        })
+        .catch((err) => {
+          // Optional: Handle errors
+          console.error("Failed to copy text: ", err);
+        });
+    }
+    </script>
 </body>
+
 </html>
