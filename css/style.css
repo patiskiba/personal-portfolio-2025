@@ -30,6 +30,10 @@ main {
 
 /* DESIGN SYSTEM */
 
+.primaryColor-text {
+    color: blueviolet;
+}
+
 .headerText {
     font-size: 1.125rem;
     font-weight: 600;
@@ -233,7 +237,7 @@ h3 {
 
 .portrait1 {
     
-    border: 1px solid white;
+    border: 3px solid white;
     transform: scaleX(-1);
 }
 /* when flex-columns turns to flex-md-row */
