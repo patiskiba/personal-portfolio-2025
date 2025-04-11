@@ -1,10 +1,16 @@
 body {
     background-color: black;
     font-family: "Inter", Arial, Helvetica, sans-serif;
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=1e1623&c2=010101&gt=r&gd=dtt
+*/
+background: #1E1623;
+background: radial-gradient(at center top, #1E1623, #010101);
 }
 
 main {
-    background-image: radial-gradient(circle, #1a0e30, #150e2c, #100e27, #0d0d22, #090c1c, #0a0a18, #090814, #08060f, #08040b, #070206, #040102, #000000);
+
 }
 
 
@@ -70,11 +76,11 @@ main {
 h1 {
     font-size: 3rem;
     margin: 0;
-    background: #F3F3F3;
-background: radial-gradient(circle farthest-corner at center center, #F3F3F3 59%, #B0A9B7 100%);
+    background: #F6F6F6;
+background: radial-gradient(circle farthest-side at top center, #F6F6F6 0%, #7C7C7C 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-    
+
 }
 
 h2 {
@@ -132,7 +138,7 @@ h3 {
     height: fit-content;
     border-radius: 1rem;
     border: 1px solid white;
-    background-color: #0B031C;
+    background-color: #1a1323;
 }
 
 .projectImageContain {
@@ -245,8 +251,9 @@ h3 {
 
 .portrait1 {
     
-    border: 3px solid white;
+    border: 3px solid rgb(40, 30, 59);
     transform: scaleX(-1);
+    
 }
 /* when flex-columns turns to flex-md-row */
 @media (min-width: 768px) {
