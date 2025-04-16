@@ -29,7 +29,7 @@
                 </ul>
             </div> -->
 
-            <nav class="navbarLeft col-6 navbar navbar-expand-sm navbar-dark bg-black">
+            <nav class="navbarLeft col-6 navbar navbar-expand-sm navbar-dark">
                 <div class="container-fluid">
                   
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
                         <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="./about.html">About</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Projects</a>
@@ -59,22 +59,19 @@
     </section>
 
     <main>
-        
-        <section class="container-fluid aboutSection">
-            <div class="row">
-                <div class="col-12">
-                    <h1>Hi, I'm Patricia.</h1>
-                </div>
+      <section class="container-fluid landingSection mt-5">
+        <div class="row flex-column">
+            <div class="col-12">
+              <h2 class="mb-4">More About Me</h2>
+              <p class="landingParagraph">26 year old originally from Queens, NYC who values lifelong learning. My ultimate goal is to lead a life of creative and intellectual growth.</p>
+              <p class="landingParagraph mb-5">My appreciation for digital creativity started as a little girl fumbling around on editing software, and making mods for the Sims 2. My love for user experience stems from craving a deep understanding of how and why things work.</p>
+              <p class="landingParagraph">My current obsessions in tech are: website UI, video game UI, CSS.</p>
+              <p class="landingParagraph">My other hobbies include reading, writing, video games, studying languages, and philosophy.</p>
+              
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <p class="landingParagraph">26 year old originally from Queens, NYC who values lifelong learning. My ultimate goal is to lead a life of creative and intellectual growth. </p>
-                    <p class="landingParagraph">My appreciation for digital creativity started as a little girl fumbling around on editing software, and making mods for the Sims 2. My love for user experience stems from craving a deep understanding of how and why things work.  </p>
-                    <p class="landingParagraph">My current obsessions in tech are: website UI, video game UI, CSS </p>
-                </div>
-            </div>
-        </section>
-
+        </div>
+      </section>
+              
     </main>
 
     <script>
@@ -84,7 +81,7 @@
       navigator.clipboard.writeText(textToCopy)
         .then(() => {
           // Optional: Display a success message
-          alert("Text copied to clipboard!");
+          alert("Email copied to clipboard!");
         })
         .catch((err) => {
           // Optional: Handle errors
